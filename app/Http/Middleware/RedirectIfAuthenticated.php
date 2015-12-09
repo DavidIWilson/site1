@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Middleware;
+namespace site1\Http\Middleware;
 
 use Closure;
 use Illuminate\Contracts\Auth\Guard;

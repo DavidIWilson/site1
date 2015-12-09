@@ -1134,56 +1134,6 @@
         ]
     },
     {
-        "name": "paragonie/random_compat",
-        "version": "1.1.1",
-        "version_normalized": "1.1.1.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/paragonie/random_compat.git",
-            "reference": "a208865a5aeffc2dbbef2a5b3409887272d93f32"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/paragonie/random_compat/zipball/a208865a5aeffc2dbbef2a5b3409887272d93f32",
-            "reference": "a208865a5aeffc2dbbef2a5b3409887272d93f32",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.2.0"
-        },
-        "require-dev": {
-            "phpunit/phpunit": "4.*|5.*"
-        },
-        "suggest": {
-            "ext-libsodium": "Provides a modern crypto API that can be used to generate random bytes."
-        },
-        "time": "2015-12-01 02:52:15",
-        "type": "library",
-        "installation-source": "dist",
-        "autoload": {
-            "files": [
-                "lib/random.php"
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Paragon Initiative Enterprises",
-                "email": "security@paragonie.com",
-                "homepage": "https://paragonie.com"
-            }
-        ],
-        "description": "PHP 5.x polyfill for random_bytes() and random_int() from PHP 7",
-        "keywords": [
-            "csprng",
-            "pseudorandom",
-            "random"
-        ]
-    },
-    {
         "name": "nesbot/carbon",
         "version": "1.21.0",
         "version_normalized": "1.21.0.0",
@@ -2196,60 +2146,6 @@
         "description": "A comprehensive library for generating differences between two hashable objects (strings or arrays)."
     },
     {
-        "name": "sebastian/diff",
-        "version": "1.4.0",
-        "version_normalized": "1.4.0.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/sebastianbergmann/diff.git",
-            "reference": "2b0112e42c338afa9ad9dfeb94d66f6d84c2f828"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/sebastianbergmann/diff/zipball/2b0112e42c338afa9ad9dfeb94d66f6d84c2f828",
-            "reference": "2b0112e42c338afa9ad9dfeb94d66f6d84c2f828",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.3.3"
-        },
-        "require-dev": {
-            "phpunit/phpunit": "~5"
-        },
-        "time": "2015-12-06 07:21:36",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "1.4-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "classmap": [
-                "src/"
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "BSD-3-Clause"
-        ],
-        "authors": [
-            {
-                "name": "Kore Nordmann",
-                "email": "mail@kore-nordmann.de"
-            },
-            {
-                "name": "Sebastian Bergmann",
-                "email": "sebastian@phpunit.de"
-            }
-        ],
-        "description": "Diff implementation",
-        "homepage": "https://github.com/sebastianbergmann/diff",
-        "keywords": [
-            "diff"
-        ]
-    },
-    {
         "name": "sebastian/comparator",
         "version": "1.2.0",
         "version_normalized": "1.2.0.0",
@@ -3198,6 +3094,290 @@
             "phpunit",
             "testing",
             "xunit"
+        ]
+    },
+    {
+        "name": "paragonie/random_compat",
+        "version": "1.1.2",
+        "version_normalized": "1.1.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/paragonie/random_compat.git",
+            "reference": "5f727f8859ceb0f6ccf5d5e73a382b501abf5d43"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/paragonie/random_compat/zipball/5f727f8859ceb0f6ccf5d5e73a382b501abf5d43",
+            "reference": "5f727f8859ceb0f6ccf5d5e73a382b501abf5d43",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "4.*|5.*"
+        },
+        "suggest": {
+            "ext-libsodium": "Provides a modern crypto API that can be used to generate random bytes."
+        },
+        "time": "2015-12-09 17:01:19",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "lib/random.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Paragon Initiative Enterprises",
+                "email": "security@paragonie.com",
+                "homepage": "https://paragonie.com"
+            }
+        ],
+        "description": "PHP 5.x polyfill for random_bytes() and random_int() from PHP 7",
+        "keywords": [
+            "csprng",
+            "pseudorandom",
+            "random"
+        ]
+    },
+    {
+        "name": "sebastian/diff",
+        "version": "1.4.1",
+        "version_normalized": "1.4.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/sebastianbergmann/diff.git",
+            "reference": "13edfd8706462032c2f52b4b862974dd46b71c9e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/sebastianbergmann/diff/zipball/13edfd8706462032c2f52b4b862974dd46b71c9e",
+            "reference": "13edfd8706462032c2f52b4b862974dd46b71c9e",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.8"
+        },
+        "time": "2015-12-08 07:14:41",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "src/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Kore Nordmann",
+                "email": "mail@kore-nordmann.de"
+            },
+            {
+                "name": "Sebastian Bergmann",
+                "email": "sebastian@phpunit.de"
+            }
+        ],
+        "description": "Diff implementation",
+        "homepage": "https://github.com/sebastianbergmann/diff",
+        "keywords": [
+            "diff"
+        ]
+    },
+    {
+        "name": "orchestra/contracts",
+        "version": "v3.1.13",
+        "version_normalized": "3.1.13.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/orchestral/contracts.git",
+            "reference": "ebe16d5f7f76f655555a0f83b82a126b06579ef7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/orchestral/contracts/zipball/ebe16d5f7f76f655555a0f83b82a126b06579ef7",
+            "reference": "ebe16d5f7f76f655555a0f83b82a126b06579ef7",
+            "shasum": ""
+        },
+        "require": {
+            "illuminate/contracts": "~5.1.0",
+            "php": ">=5.5.0"
+        },
+        "time": "2015-11-18 10:24:34",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.2-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Orchestra\\Contracts\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mior Muhammad Zaki",
+                "email": "crynobone@gmail.com",
+                "homepage": "https://github.com/crynobone"
+            }
+        ],
+        "description": "Contracts for Orchestra Platform",
+        "keywords": [
+            "contracts",
+            "orchestra-platform",
+            "orchestral"
+        ]
+    },
+    {
+        "name": "orchestra/support",
+        "version": "v3.1.7",
+        "version_normalized": "3.1.7.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/orchestral/support.git",
+            "reference": "bd2d44588dfc594381c80869ed3419f06a28caf3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/orchestral/support/zipball/bd2d44588dfc594381c80869ed3419f06a28caf3",
+            "reference": "bd2d44588dfc594381c80869ed3419f06a28caf3",
+            "shasum": ""
+        },
+        "require": {
+            "illuminate/support": "~5.1.0",
+            "orchestra/contracts": "~3.1.0",
+            "php": ">=5.5.0"
+        },
+        "replace": {
+            "orchestra/support-core": "self.version",
+            "orchestra/support-facades": "self.version",
+            "orchestra/support-providers": "self.version"
+        },
+        "require-dev": {
+            "illuminate/database": "~5.1.0",
+            "illuminate/routing": "~5.1.0",
+            "illuminate/session": "~5.1.0",
+            "mockery/mockery": "0.9.*"
+        },
+        "suggest": {
+            "laravel/framework": "Allow using orchestra/support component outside of Orchestra Platform (~5.1).",
+            "orchestra/foundation": "Allow using orchestra/support with Orchestra Platform (~3.1).",
+            "orchestra/messages": "Allow using Messages component (~3.1)."
+        },
+        "time": "2015-11-25 07:01:32",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.2-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Orchestra\\Support\\Facades\\": "src/Facades/",
+                "Orchestra\\Support\\Providers\\": "src/Providers/",
+                "Orchestra\\Support\\": "src/Support/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mior Muhammad Zaki",
+                "email": "crynobone@gmail.com",
+                "homepage": "https://github.com/crynobone"
+            }
+        ],
+        "description": "Support Component for Orchestra Platform",
+        "homepage": "http://orchestraplatform.com/docs/latest/components/support/",
+        "keywords": [
+            "laravel",
+            "orchestra-platform",
+            "orchestral",
+            "utilities",
+            "validator"
+        ]
+    },
+    {
+        "name": "orchestra/tenanti",
+        "version": "v3.1.4",
+        "version_normalized": "3.1.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/orchestral/tenanti.git",
+            "reference": "0a72d4abd5515e17a13be35801364863f060077d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/orchestral/tenanti/zipball/0a72d4abd5515e17a13be35801364863f060077d",
+            "reference": "0a72d4abd5515e17a13be35801364863f060077d",
+            "shasum": ""
+        },
+        "require": {
+            "illuminate/filesystem": "~5.1.0",
+            "orchestra/support": "~3.1.5",
+            "php": ">=5.5.0"
+        },
+        "require-dev": {
+            "laravel/framework": "~5.1.0",
+            "mockery/mockery": "^0.9.1"
+        },
+        "time": "2015-09-18 03:45:50",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.2-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Orchestra\\Tenanti\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mior Muhammad Zaki",
+                "email": "crynobone@gmail.com",
+                "homepage": "https://github.com/crynobone"
+            }
+        ],
+        "description": "Tenant based Database Schema Manager for Laravel",
+        "keywords": [
+            "laravel",
+            "migration",
+            "multi-tenant",
+            "orchestra-platform",
+            "orchestral",
+            "schema"
         ]
     }
 ]

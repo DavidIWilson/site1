@@ -138,12 +138,21 @@ return [
         Illuminate\View\ViewServiceProvider::class,
 
         /*
+         * Third-Party Service Providers...
+         */
+        Orchestra\Tenanti\TenantiServiceProvider::class,
+        Orchestra\Tenanti\CommandServiceProvider::class,
+
+
+        /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        site1\Providers\AppServiceProvider::class,
+        site1\Providers\AuthServiceProvider::class,
+        site1\Providers\EventServiceProvider::class,
+        site1\Providers\RouteServiceProvider::class,
+
+
 
     ],
 

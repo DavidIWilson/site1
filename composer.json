@@ -6,7 +6,8 @@
     "type": "project",
     "require": {
         "php": ">=5.5.9",
-        "laravel/framework": "5.1.*"
+        "laravel/framework": "5.1.*",
+        "orchestra/tenanti": "~3.1"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
@@ -19,7 +20,7 @@
             "database"
         ],
         "psr-4": {
-            "App\\": "app/"
+            "site1\\": "app/"
         }
     },
     "autoload-dev": {
@@ -45,6 +46,7 @@
             "php artisan key:generate"
         ]
     },
+
     "config": {
         "preferred-install": "dist"
     }
